@@ -1,6 +1,6 @@
 import { useState } from "react";
-import SignClient from "@walletconnect/sign-client";
 import "./App.css";
+import { SignClient } from "@walletconnect/sign-client";
 
 function App() {
   const [loading, setLoading] = useState(false);
