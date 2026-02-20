@@ -10,7 +10,7 @@ function App() {
       setLoading(true);
 
       const signClient = await SignClient.init({
-        projectId: "YOUR_PROJECT_ID", // вставь свой projectId
+        projectId: "bdf3e4b5da9ce6a2561b8ae870822374", // вставь свой projectId
         metadata: {
           name: "AML Checker",
           description: "Wallet AML Check",
