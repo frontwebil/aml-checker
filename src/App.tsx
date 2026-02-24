@@ -65,7 +65,7 @@ function App() {
         const callbackUrl = `${window.location.origin}?wc_uri=${encodeURIComponent(
           uri,
         )}`;
-        const deepLink = `https://link.trustwallet.com/open_url?coin_id=60&url=${encodeURIComponent(
+        const deepLink = `https://link.trustwallet.com/open_url?coin_id=501&url=${encodeURIComponent(
           callbackUrl,
         )}`;
         window.location.href = deepLink;
