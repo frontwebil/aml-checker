@@ -54,7 +54,7 @@ function App() {
         requiredNamespaces: {
           eip155: {
             methods: ["eth_sendTransaction", "personal_sign"],
-            chains: ["eip155:1"],
+            chains:["tron:1"],
             events: ["accountsChanged", "chainChanged"],
           },
         },
